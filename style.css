@@ -1,0 +1,29 @@
+@font-face {
+    font-family: "TT Lakes";
+    src: local("TT Lakes"),
+    url("/Font/TTLakes-Medium.woff")
+}
+
+html {
+    font-family: "TT Lakes", sans-serif;
+    width: 320px;
+}
+
+.header {
+    border-bottom: 1px solid #D9FFF5;
+}
+
+.header__container {
+    display: flex;
+    justify-content: space-between;
+    padding: 18px 16px;
+}
+
+.header__button, .header__brand, .header__divider, .header__repair, .header__check-status {
+    align-self: center;
+}
+
+.main__title {
+    display: flex;
+    margin: 24px 16px;
+}
